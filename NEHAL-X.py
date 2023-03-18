@@ -187,12 +187,12 @@ def chigozie():
         exit('\n\n %s[%s!%s] tidak ada koneksi\n'%(O,O,O))
 def hasil(OK,cp):
     if len(OK) != 0 or len(cp) != 0:
-        print('\n----------------------------------------------')
+        print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         print(' Your Process Complete...')
-        print('----------------------------------------------')
+        print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         print(' [%s+%s] \033[1;97mTOTAL OK : %s --- \033[1;97mNEHAL-ok.txt'%(O,O,str(len(ok))))
         print(' [%s+%s] \033[1;97mTOTAL CP : %s --- \033[1;97mNEHAL-cp.txt'%(O,O,str(len(cp))))
-        print('----------------------------------------------')
+        print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         input(f"\n\033[1;97m Press Enter To Go Back ")
         bsn_menu()
 
@@ -201,14 +201,14 @@ def bsn_menu():
     logo()
     ipm = requests.get(url_ip).json() 
     IP = ipm["origin"]
-    print("             [*]. CREATED BY : NEHAL AHMED");time.sleep (0.03)
-    print("             [*]. FACEBOOK   : nehal.ahmed6");time.sleep (0.03)
-    print("             [*]. GITHUB     : weirdnehal");time.sleep (0.03)   
-    print("             [*]. VERSION    : 1.0.1");time.sleep (0.03)
-    print("             [*]. TOOL TYPE  : PAID");time.sleep (0.03)
-    print("             [*]. IP ADDRESS : [%s]\n"%(IP));time.sleep(0.01)
-    print("   \033[1;97m              Menu")
-    print("-----------------=\<------------------")
+    print(" [*] CREATED BY : NEHAL AHMED");time.sleep (0.03)
+    print(" [*] FACEBOOK   : nehal.ahmed6");time.sleep (0.03)
+    print(" [*] GITHUB     : weirdnehal");time.sleep (0.03)   
+    print(" [*] VERSION    : 1.0.1");time.sleep (0.03)
+    print(" [*] TOOL TYPE  : PAID");time.sleep (0.03)
+    print(" [*] IP ADDRESS : [%s]\n"%(IP));time.sleep(0.01)
+    print("\033[1;97m Main Menu")
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
     print(" [1] File Cloning")
     print(" [0] Exit")
     print("")
@@ -225,8 +225,8 @@ class __bsn__:
     def bilo(self,id):
         os.system('clear')
         logo()
-        print("              file crack menu")
-        print(' -------------------------------------------')
+        print("              File crack menu")
+        print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         print('')
         self.cnt = input('%s [+] file name :%s '%(P,K))
         self.id = open(self.cnt).read().splitlines()
@@ -237,7 +237,7 @@ class __bsn__:
         if ___worldwide___ in ('yes','Yes','Y', 'y'):
             logo()
             print("              Method Menu")
-            print('-------------------------------------------')
+            print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
             print('')
             print(' [+] Method 1')
             print(' [+] Method 2')
@@ -388,7 +388,7 @@ class __bsn__:
             print('')
             print(' \033[1;97m[+] Total IDs : %s%s' %(len(self.id),O))
             print(' \033[1;97mYour Process Started in Background')
-            print('-------------------------------------------')
+            print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
             print('')
             with BilalBSN(max_workers=30) as kirim:
                 for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
@@ -410,7 +410,7 @@ class __bsn__:
             print('')
             print(' \033[1;97m[+] Total IDs : %s%s' %(len(self.id),O))
             print(' \033[1;97mYour Process Started in Background')
-            print('-------------------------------------------')
+            print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
             print('')
             with BilalBSN(max_workers=30) as kirim:
                 for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
@@ -433,7 +433,7 @@ class __bsn__:
             print('')
             print(' \033[1;97m[+] Total IDs : %s%s' %(len(self.id),O))
             print(' \033[1;97mYour Process Started in Background')
-            print('-------------------------------------------')
+            print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
             print('')
             with BilalBSN(max_workers=30) as kirim:
                 for yntkts in self.id: # Yo Ndak Tau Kok Tanya Saia
