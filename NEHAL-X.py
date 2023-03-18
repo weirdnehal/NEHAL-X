@@ -1,5 +1,4 @@
-# Decompile by Peaky-XD (Tools By Kapten-Kaizo)
-# Time Succes decompile : 2023-03-16 14:00:33.945975
+
 
 import os
 try:
